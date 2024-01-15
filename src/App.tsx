@@ -27,6 +27,9 @@ function App() {
       <Hibauzenet hibauzenetek={password.length >= 8 && !regex.test(password) ? 'erős' : ''}
         sulyos={2} />
     </main>
+    <footer>
+      <p>Laukó Szandra, 2024.01.15.</p>
+    </footer>
   </div>
 }
 
